@@ -1,0 +1,20 @@
+# Rust target build output
+backend/target/
+backend/converse_db.json
+
+# Node modules and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.svelte-kit/
+frontend/.next/
+
+# IDEs and OS files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
