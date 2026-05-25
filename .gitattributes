@@ -1,0 +1,8 @@
+# Force GitHub Linguist to accurately detect and index all Rust backend files
+backend/**/*.rs linguist-language=Rust
+
+# Ignore stylesheets and build configs from skewing language bar statistics
+frontend/src/index.css linguist-vendored
+frontend/package-lock.json linguist-vendored
+backend/Cargo.lock linguist-vendored
+*.lock linguist-vendored
