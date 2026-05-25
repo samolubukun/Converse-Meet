@@ -1119,3 +1119,4 @@ interface HashMap<V> {
 // WebRTC Multi-Peer Mesh Connection Manager
 // Text Chat sidebar and lobby moderator approvals panel
 // Floating reactions overlays and toolbar actions
+// Dynamic screensharing mirroring fixes
