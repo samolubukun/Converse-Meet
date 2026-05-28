@@ -71,8 +71,8 @@ const ProtectedRoute: React.FC<{ children: React.ReactElement }> = ({ children }
 
   if (loading) {
     return (
-      <div style={{ display: "flex", height: "100vh", alignItems: "center", justifyContent: "center", color: "white" }}>
-        <h3>Loading session...</h3>
+      <div className="page">
+        <div className="spinner" />
       </div>
     );
   }
