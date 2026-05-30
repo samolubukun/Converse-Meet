@@ -19,7 +19,7 @@ RUN npm run build
 # ==========================================
 # STAGE 2: Build the High-Performance Rust Backend
 # ==========================================
-FROM rust:1.78-slim AS backend-builder
+FROM rust:1.86-slim AS backend-builder
 WORKDIR /app/backend
 
 # Install necessary build tools for compiling Rust dependencies
