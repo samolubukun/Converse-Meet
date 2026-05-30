@@ -89,7 +89,7 @@ const Home: React.FC = () => {
             </div>
           )}
 
-          <form onSubmit={handleJoin} style={{ display: "flex", gap: 10, marginBottom: 28, justifyContent: "center" }}>
+          <form onSubmit={handleJoin} className="join-form">
             <div className="form-input-wrap" style={{ flex: 1, maxWidth: 280 }}>
               <Key size={17} className="form-input-icon" />
               <input
